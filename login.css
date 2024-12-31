@@ -108,6 +108,10 @@ main{
         margin-bottom: 20px;
         color:  #46a2fd;
     }
+    .contenedor_login_register form h3{
+        font-size: 20px;
+        color:  #46a2fd;
+    }
 
     .contenedor_login_register form input{
         width: 100%;

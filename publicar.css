@@ -54,6 +54,10 @@ main{
     color:  #46a2fd;
 }
 
+.contenedor_publicar_producto form h3{
+    color:  #46a2fd;
+}
+
 .contenedor_publicar_producto form input{
     width: 100%;
     margin-top: 20px;
@@ -78,4 +82,8 @@ main{
 .formulario_publicar{
     opacity: 1;
     display: block;
+}
+
+#add-photo input{
+    display: none;
 }

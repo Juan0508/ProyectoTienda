@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+body{
+    background-image: url(https://sell.emprendepyme.net/wp-content/uploads/2018/03/gestion-de-pedidos-en-el-ecommerce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+}
+
+a{
+    color: white;
+    background-color: rgba(0, 120, 255, 0.5);
+    border-radius: 50px;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contenedor_todo{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contenedor_publicar_producto form{
+    width: 100%;
+    padding: 80px 20px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.contenedor_publicar_producto form h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:  #46a2fd;
+}
+
+.contenedor_publicar_producto form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor_publicar_producto form button{
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    background: #46a2fd;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.formulario_publicar{
+    opacity: 1;
+    display: block;
+}
